@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <style>
+	#logo {
+		background-color:#000;	
+                height: 50px; 
+		margin-bottom:20px;
+	}
+	
+	#texto {
+		font-family:Georgia, "Times New Roman", Times, serif;
+		font-size:16px;
+		color:#aaa;
+		padding-left:20%;
+		padding-right:auto;
+	}
+	
+        @media screen and (max-width:500px) {
+                #texto {
+                        font-family:Arial, Helvetica, sans-serif;
+                        font-size:18px;
+                        color:#000;
+                        padding-left:5%;
+                        padding-right:5%;
+                }
+
+                #logo {
+                        width:100%;
+                        text-align:center;
+                        border:1px solid #000;
+                }
+
+                #logoimg {
+                        width:300px;
+                        border:1px solid #000;
+                }
+
+        }
+        .botones  {
+		position:absolute;
+		//left:15px;
+		//z-index:4;
+		width:45%;
+		height:30px;
+		background-image:url(img/degradado1.png);
+		background-repeat:repeat-x;
+		text-align:center;
+		padding-top:11px;
+		border:1px solid #aaa;
+		font-family:Verdana, Geneva, sans-serif;
+		font-size:14px;
+		margin-top:20px;
+	}
+        #cap0 {
+		top:150px;
+	}
+	
+	#cap1 {
+		top:200px;
+	}
+	
+	#cap2 {
+		top:250px;
+	}
+
+	
+	
+	
+
+</style>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="logo">
+                    <img src="" id="logoimg"/>
+            </div>
+            <div id="texto">
+                    <img src="img/icon_person.png" align="left" width="60" hspace="9" />
+              Bienvenidos al curso de diseñar contenidos en HTML5 para Tablets. 
+              Dependiendo del tamaño de pantalla de tu dispositivo, cambiaremos 
+              tipo y cuerpo de la fuente para hacerla más legible.
+            </div>
+                <div id="cap0" class="botones">Introducción</div>
+                <div id="cap1" class="botones">Capítulo Primero</div>
+                <div id="cap2" class="botones">Capítulo Segundo</div>
+      </div>
+    </body>
+</html>
